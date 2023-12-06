@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb-staging-environment
+    username: staging
+    password: staging
+  h2:
+    console:
+      path: /h2-staging

@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb-prod-environment
+    username: prod
+    password: prod
+  h2:
+    console:
+      path: /h2-prod
